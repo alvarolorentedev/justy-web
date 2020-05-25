@@ -1,0 +1,89 @@
+# default configuration
+baseURL = "http://www.justy.es"
+languageCode = "en-us"
+summaryLength = "10"
+theme = "kross-hugo"
+title = "Justy | La plataforma etica para el negocio local"
+
+# css plugins
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "plugins/slick/slick.css"
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+
+
+# js plugin
+[[params.plugins.js]]
+URL = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+URL = "plugins/shuffle/shuffle.min.js"
+
+
+# menu
+# [[menu.main]]
+# URL = "about"
+# name = "About"
+# weight = 1
+
+# [[menu.main]]
+# URL = "blog"
+# name = "Blog"
+# weight = 2
+
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 4
+
+
+# default parameters
+[params]
+home = "Home"
+logo = "images/logo-text-small-justy.png"
+# theme color
+theme_color = "#8ff6ca"
+# contact info
+phone = ""
+email = "contact@justy.es"
+address = ""
+# meta description
+author = "Alvaro Perez"
+description = "La plataforma etica para encontrar alguien que te ayude con tus tramites"
+# google analytics
+google_analytics_id = "" # Your ID
+# copyright
+copyright = "Copyright &copy; 2020 [kanekotic](https://www.kanekotic.com)"
+
+
+# contact
+[params.contact]
+enable = true
+form_action = "#" # contact form works with : https://formspree.io
+
+# preloader
+[params.preloader]
+enable = true
+preloader = "" # use png, jpg, svg or gif format
+
+# social site
+# [[params.social]]
+# icon = "ti-facebook"
+# URL = "#"
+
+# [[params.social]]
+# icon = "ti-instagram"
+# URL = "#"
+
+# [[params.social]]
+# icon = "ti-dribbble"
+# URL = "#"
+
+# [[params.social]]
+# icon = "ti-twitter-alt"
+# URL = "#"
