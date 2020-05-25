@@ -56,10 +56,9 @@ address = ""
 author = "Alvaro Perez"
 description = "La plataforma etica para encontrar alguien que te ayude con tus tramites"
 # google analytics
-google_analytics_id = "" # Your ID
+google_analytics_id = "UA-167510842-1" # Your ID
 # copyright
 copyright = "Copyright &copy; 2020 [kanekotic](https://www.kanekotic.com)"
-
 
 # contact
 [params.contact]
